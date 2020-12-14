@@ -12,7 +12,7 @@ const ArmaLista = () => {
 
   const sumavaloralista = () => {
     if (lista.includes(valor)) {
-      alert("Elemento repetido mi amor te amo")
+      alert("Elemento repetido")
     }
     else {
       setLista([valor].concat(lista))
