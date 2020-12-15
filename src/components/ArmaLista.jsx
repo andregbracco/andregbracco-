@@ -9,7 +9,7 @@ const ArmaLista = () => {
   const ingresa = (evento) => {
     setValor(evento.target.value);
   }
-
+/*
   const sumavaloralista = () => {
     if (lista.includes(valor)) {
       alert("Elemento repetido")
@@ -18,6 +18,9 @@ const ArmaLista = () => {
       setLista([valor].concat(lista))
     }
   }
+*/
+  const sumavaloralista = () => 
+    lista.includes(valor) ? alert("Elemento repetido") : setLista([valor].concat(lista))
 
   const imprimir = (elemento, ind) => {
     const borrar = () => {
